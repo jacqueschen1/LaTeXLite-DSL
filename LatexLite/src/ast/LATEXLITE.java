@@ -8,6 +8,7 @@ public class LATEXLITE extends Node {
         while (!tokenizer.checkToken("finished")){
             if (tokenizer.checkToken("doctype")){
                 DOCTYPE dt = new DOCTYPE();
+
             }
             else if (tokenizer.checkToken("include")){
                 PACKAGE p = new PACKAGE();
