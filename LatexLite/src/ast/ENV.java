@@ -1,6 +1,7 @@
 package ast;
 
 public class ENV extends LATEXLITE{
+    String env;
 
 
     public void parse(){
